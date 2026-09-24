@@ -6,7 +6,7 @@
 
 ## 项目状态
 
-- 当前阶段：V0.1 开放阅读基线书稿已导入并完成来源核验与网页兼容性整理，准备搭建阅读站。
+- 当前阶段：V0.1 开放阅读基线书稿与 VitePress 阅读站已经建立。
 - 中文书名：破圈力。
 - 英文书名：THE POWER TO BREAK THROUGH。
 - 计划仓库：`flyingpig707/PowerofBreakthrough`。
@@ -40,4 +40,21 @@ PowerofBreakthrough/
 - 原始 Word 和整书 Markdown 继续保存在原始资料目录，只用于版本核对。
 - [书稿来源核验报告](audits/2026-09-24-source-audit.md)记录了完整性结论和建站前需要处理的问题。
 
-书稿核验、网站、开放共建规则和部署配置将在后续步骤中逐项建立。
+## 本地预览
+
+本项目使用 Node.js 22+、pnpm 与 VitePress 1.6 构建阅读站。
+
+```bash
+pnpm install
+pnpm docs:dev
+```
+
+构建生产版本：
+
+```bash
+pnpm docs:build
+```
+
+生成的网站位于 `book/.vitepress/dist/`。站点已经包含章节导航、页内目录、全文本地搜索、深色模式、移动端适配与中文阅读样式。
+
+开放共建规则、自动化校验与 EdgeOne 部署配置将在后续步骤中逐项建立。
