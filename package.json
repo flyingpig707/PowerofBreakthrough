@@ -7,10 +7,10 @@
     "docs:dev": "vitepress dev book",
     "docs:build": "vitepress build book",
     "docs:preview": "vitepress preview book",
-    "content:check": "python3 scripts/normalize_markdown.py --check book/*.md"
+    "content:check": "python3 scripts/normalize_markdown.py --check book/*.md",
+    "contributions:check": "python3 scripts/validate_contributions.py"
   },
   "devDependencies": {
     "vitepress": "^1.6.4"
   }
 }
-

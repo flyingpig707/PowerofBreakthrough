@@ -1,4 +1,11 @@
-# 共建提案
+# 公开共写提案库
 
-本目录将在开放共写机制建立后，用于存放尚未进入正式书稿的结构化贡献提案。
+这里收录通过确定性格式检查的共同写作提案。提案仍需人工内容评审，不代表作者认可，也不是正式书稿。
 
+目录格式：
+
+```text
+contributions/<github-login>/<proposal-slug>/
+```
+
+参与方式请阅读 [`skills/power-of-breakthrough-coauthor/`](../skills/power-of-breakthrough-coauthor/)；治理与状态含义见 [`GOVERNANCE.md`](../GOVERNANCE.md)。正式书稿始终位于 [`book/`](../book/)。

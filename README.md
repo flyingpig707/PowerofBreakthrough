@@ -57,4 +57,10 @@ pnpm docs:build
 
 生成的网站位于 `book/.vitepress/dist/`。站点已经包含章节导航、页内目录、全文本地搜索、深色模式、移动端适配与中文阅读样式。
 
-开放共建规则、自动化校验与 EdgeOne 部署配置将在后续步骤中逐项建立。
+## 参与共建
+
+《破圈力》采用“公开提案库＋作者编辑”的两级机制。外部参与者在 `contributions/` 提交结构化提案，不直接修改正式书稿；作者决定采用后，再通过独立编辑 Pull Request 更新 `book/`。
+
+完整规则见 [`CONTRIBUTING.md`](CONTRIBUTING.md)，Agent 共写入口见 [`skills/power-of-breakthrough-coauthor/`](skills/power-of-breakthrough-coauthor/)。
+
+自动化部署配置将在后续步骤中建立。
