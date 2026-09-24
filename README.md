@@ -64,3 +64,7 @@ pnpm docs:build
 完整规则见 [`CONTRIBUTING.md`](CONTRIBUTING.md)，Agent 共写入口见 [`skills/power-of-breakthrough-coauthor/`](skills/power-of-breakthrough-coauthor/)。
 
 自动化部署配置将在后续步骤中建立。
+
+## 在线发布
+
+站点计划由 GitHub `main` 分支自动部署至 EdgeOne Makers，并绑定 `breakthrough.learn-together.cn`。构建参数和首次上线步骤见 [`DEPLOYMENT.md`](DEPLOYMENT.md)。
