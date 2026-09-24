@@ -51,3 +51,5 @@ pnpm run docs:build
 ```
 
 生成目录 `book/.vitepress/dist/` 仅是构建产物，不提交到 Git。
+
+`pnpm-workspace.yaml` 只允许 VitePress 构建链中的 `esbuild` 执行安装脚本；不要改成允许全部依赖脚本。
