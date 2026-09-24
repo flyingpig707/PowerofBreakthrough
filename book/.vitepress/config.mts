@@ -25,8 +25,9 @@ export default defineConfig({
     siteTitle: '破圈力',
     nav: [
       { text: '首页', link: '/' },
-      { text: '目录', link: '/00-封面' },
       { text: '开始阅读', link: '/01-前言%20破圈缘起' },
+      { text: '共同写作', link: '/#coauthor' },
+      { text: '全书目录', link: '/00-封面' },
     ],
     sidebar: [
       {
@@ -108,8 +109,8 @@ export default defineConfig({
       },
     },
     editLink: {
-      pattern: 'https://github.com/flyingpig707/PowerofBreakthrough/edit/main/book/:path',
-      text: '在 GitHub 上改进此页',
+      pattern: '/#coauthor',
+      text: '用 Agent 参与共同写作',
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/flyingpig707/PowerofBreakthrough' },
@@ -120,4 +121,3 @@ export default defineConfig({
     },
   },
 })
-
