@@ -11,7 +11,7 @@
 | 仓库 | `flyingpig707/PowerofBreakthrough` |
 | 生产分支 | `main` |
 | 根目录 | `./` |
-| Node.js | `22.11.0` |
+| Node.js | `22.17.1` |
 | 安装命令 | `pnpm install --frozen-lockfile` |
 | 构建命令 | `pnpm run docs:build` |
 | 输出目录 | `book/.vitepress/dist` |
